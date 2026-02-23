@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+output/
+outputs/
+results/
+logs/
+wandb/
+
+# Data
+*.tar
+*.tar.gz
+*.zip
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Logs
+*.log
+tensorboard/
+
+# Environment variables
+.env
+training/HPG_train.sh
